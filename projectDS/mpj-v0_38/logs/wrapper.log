@@ -1,0 +1,244 @@
+DEBUG  | wrapper  | 2015/03/21 18:41:29 | Spawning intermediate process...
+DEBUG  | wrapper  | 2015/03/21 18:41:29 | Spawning daemon process...
+STATUS | wrapper  | 2015/03/21 18:41:29 | --> Wrapper Started as Daemon
+DEBUG  | wrapper  | 2015/03/21 18:41:29 | Using tick timer.
+DEBUG  | wrapperp | 2015/03/21 18:41:29 | server listening on port 32000.
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[0] : java
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[1] : -Djava.library.path=../lib
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[2] : -classpath
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[3] : ../lib/daemon.jar:../lib/wrapper.jar
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[4] : -Dwrapper.key=c0nJUma71sBSPfnK
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[5] : -Dwrapper.port=32000
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[6] : -Dwrapper.jvm.port.min=31000
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[7] : -Dwrapper.jvm.port.max=31999
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[8] : -Dwrapper.debug=TRUE
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[9] : -Dwrapper.pid=14422
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[10] : -Dwrapper.version=3.2.3
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[11] : -Dwrapper.native_library=wrapper
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[12] : -Dwrapper.service=TRUE
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[13] : -Dwrapper.cpu.timeout=10
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[14] : -Dwrapper.jvmid=1
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[15] : runtime.daemon.WrapperSimpleApp
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[16] : runtime.daemon.MPJDaemon
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Command[17] : 10000
+STATUS | wrapper  | 2015/03/21 18:41:30 | Launching a JVM...
+INFO   | jvm 1    | 2015/03/21 18:41:30 | WrapperManager class initialized by thread: main  Using classloader: sun.misc.Launcher$AppClassLoader@48c4fedd
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/03/21 18:41:30 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Wrapper Manager: JVM #1
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Running a 64-bit JVM.
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Wrapper Manager: Registering shutdown hook
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Wrapper Manager: Using wrapper
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Load native library.  One or more attempts may fail if platform specific libraries do not exist.
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Loading native library failed: libwrapper-linux-x86-64.so  Cause: java.lang.UnsatisfiedLinkError: no wrapper-linux-x86-64 in java.library.path
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Loaded native library: libwrapper.so
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Calling native initialization method.
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Inside native WrapperManager initialization method
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Java Version   : 1.6.0_33-b33 OpenJDK 64-Bit Server VM
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Java VM Vendor : Sun Microsystems Inc.
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Control event monitor thread started.
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Startup runner thread started.
+INFO   | jvm 1    | 2015/03/21 18:41:30 | WrapperManager.start(runtime.daemon.WrapperSimpleApp@2bf06804, args["10000"]) called by thread: main
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Communications runner thread started.
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Open socket to wrapper...Wrapper-Connection
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Opened Socket from 31000 to 32000
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Send a packet KEY : c0nJUma71sBSPfnK
+INFO   | jvm 1    | 2015/03/21 18:41:30 | handleSocket(Socket[addr=/127.0.0.1,port=32000,localport=31000])
+DEBUG  | wrapperp | 2015/03/21 18:41:30 | accepted a socket from 127.0.0.1 on port 31000
+DEBUG  | wrapperp | 2015/03/21 18:41:30 | read a packet KEY : c0nJUma71sBSPfnK
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Got key from JVM: c0nJUma71sBSPfnK
+DEBUG  | wrapperp | 2015/03/21 18:41:30 | send a packet LOW_LOG_LEVEL : 1
+DEBUG  | wrapperp | 2015/03/21 18:41:30 | send a packet PING_TIMEOUT : 30
+DEBUG  | wrapperp | 2015/03/21 18:41:30 | send a packet PROPERTIES : (Property Values)
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Start Application.
+DEBUG  | wrapperp | 2015/03/21 18:41:30 | send a packet START : start
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Received a packet LOW_LOG_LEVEL : 1
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Wrapper Manager: LowLogLevel from Wrapper is 1
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Received a packet PING_TIMEOUT : 30
+INFO   | jvm 1    | 2015/03/21 18:41:30 | PingTimeout from Wrapper is 30000
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Received a packet PROPERTIES : (Property Values)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Received a packet START : start
+INFO   | jvm 1    | 2015/03/21 18:41:30 | calling WrapperListener.start()
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Waiting for WrapperListener.start runner thread to complete.
+INFO   | jvm 1    | 2015/03/21 18:41:30 | WrapperListener.start runner thread started.
+INFO   | jvm 1    | 2015/03/21 18:41:30 | WrapperSimpleApp: start(args)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | WrapperSimpleApp: invoking main method
+INFO   | jvm 1    | 2015/03/21 18:41:30 | runtime.MPJRuntimeException: java.io.FileNotFoundException: null/logs/daemon-khaled-Lenovo-Z50-70.log (No such file or directory)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at runtime.daemon.MPJDaemon.createLogger(MPJDaemon.java:519)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at runtime.daemon.MPJDaemon.<init>(MPJDaemon.java:105)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at runtime.daemon.MPJDaemon.main(MPJDaemon.java:1021)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at java.lang.reflect.Method.invoke(Method.java:622)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at runtime.daemon.WrapperSimpleApp.run(WrapperSimpleApp.java:187)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at java.lang.Thread.run(Thread.java:701)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Caused by: java.io.FileNotFoundException: null/logs/daemon-khaled-Lenovo-Z50-70.log (No such file or directory)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at java.io.FileOutputStream.openAppend(Native Method)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at java.io.FileOutputStream.<init>(FileOutputStream.java:210)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at java.io.FileOutputStream.<init>(FileOutputStream.java:131)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at org.apache.log4j.FileAppender.setFile(FileAppender.java:282)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at org.apache.log4j.FileAppender.<init>(FileAppender.java:106)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at org.apache.log4j.DailyRollingFileAppender.<init>(DailyRollingFileAppender.java:195)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	at runtime.daemon.MPJDaemon.createLogger(MPJDaemon.java:506)
+INFO   | jvm 1    | 2015/03/21 18:41:30 | 	... 8 more
+INFO   | jvm 1    | 2015/03/21 18:41:30 | WrapperSimpleApp: main method completed
+INFO   | jvm 1    | 2015/03/21 18:41:30 | WrapperSimpleApp: start(args) end.  Main Completed=true, exitCode=null
+INFO   | jvm 1    | 2015/03/21 18:41:30 | WrapperListener.start runner thread stopped.
+INFO   | jvm 1    | 2015/03/21 18:41:30 | returned from WrapperListener.start()
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Send a packet STARTED : 
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Startup runner thread stopped.
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Wrapper Manager: ShutdownHook started
+INFO   | jvm 1    | 2015/03/21 18:41:30 | WrapperManager.stop(0) called by thread: Wrapper-Shutdown-Hook
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Send a packet STOP : 0
+DEBUG  | wrapperp | 2015/03/21 18:41:30 | read a packet STARTED : 
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | JVM signalled that it was started.
+DEBUG  | wrapperp | 2015/03/21 18:41:30 | read a packet STOP : 0
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | JVM requested a shutdown. (0)
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | wrapperStopProcess(0) called.
+DEBUG  | wrapper  | 2015/03/21 18:41:30 | Sending stop signal to JVM
+DEBUG  | wrapperp | 2015/03/21 18:41:30 | send a packet STOP : NULL
+INFO   | jvm 1    | 2015/03/21 18:41:30 | Received a packet STOP : 
+INFO   | jvm 1    | 2015/03/21 18:41:31 | Thread, Wrapper-Shutdown-Hook, handling the shutdown process.
+INFO   | jvm 1    | 2015/03/21 18:41:31 | calling listener.stop()
+INFO   | jvm 1    | 2015/03/21 18:41:31 | WrapperSimpleApp: stop(0)
+INFO   | jvm 1    | 2015/03/21 18:41:31 | returned from listener.stop() -> 0
+INFO   | jvm 1    | 2015/03/21 18:41:31 | shutdownJVM(0) Thread:Wrapper-Shutdown-Hook
+INFO   | jvm 1    | 2015/03/21 18:41:31 | Send a packet STOPPED : 0
+DEBUG  | wrapperp | 2015/03/21 18:41:31 | read a packet STOPPED : 0
+DEBUG  | wrapper  | 2015/03/21 18:41:31 | JVM signalled that it was stopped.
+INFO   | jvm 1    | 2015/03/21 18:41:31 | Closing socket.
+DEBUG  | wrapperp | 2015/03/21 18:41:31 | socket read no code (closed?).
+DEBUG  | wrapperp | 2015/03/21 18:41:31 | server listening on port 32001.
+DEBUG  | wrapper  | 2015/03/21 18:41:32 | JVM exited normally.
+DEBUG  | wrapper  | 2015/03/21 18:41:32 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2015/03/21 18:41:32 |   signal number=17 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2015/03/21 18:41:32 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2015/03/21 18:41:32 | JVM process exited with a code of 0, leaving the wrapper exit code set to 0.
+INFO   | jvm 1    | 2015/03/21 18:41:32 | Wrapper Manager: ShutdownHook complete
+INFO   | jvm 1    | 2015/03/21 18:41:32 | Server daemon shut down
+STATUS | wrapper  | 2015/03/21 18:41:32 | <-- Wrapper Stopped
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Spawning intermediate process...
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Spawning daemon process...
+STATUS | wrapper  | 2015/03/21 18:55:50 | --> Wrapper Started as Daemon
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Using tick timer.
+DEBUG  | wrapperp | 2015/03/21 18:55:50 | server listening on port 32000.
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[0] : java
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[1] : -Djava.library.path=../lib
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[2] : -classpath
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[3] : ../lib/daemon.jar:../lib/wrapper.jar
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[4] : -Dwrapper.key=UjBrEB9PBK2aZHQC
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[5] : -Dwrapper.port=32000
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[6] : -Dwrapper.jvm.port.min=31000
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[7] : -Dwrapper.jvm.port.max=31999
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[8] : -Dwrapper.debug=TRUE
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[9] : -Dwrapper.pid=31285
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[10] : -Dwrapper.version=3.2.3
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[11] : -Dwrapper.native_library=wrapper
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[12] : -Dwrapper.service=TRUE
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[13] : -Dwrapper.cpu.timeout=10
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[14] : -Dwrapper.jvmid=1
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[15] : runtime.daemon.WrapperSimpleApp
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[16] : runtime.daemon.MPJDaemon
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Command[17] : 10000
+STATUS | wrapper  | 2015/03/21 18:55:50 | Launching a JVM...
+INFO   | jvm 1    | 2015/03/21 18:55:50 | WrapperManager class initialized by thread: main  Using classloader: sun.misc.Launcher$AppClassLoader@48c4fedd
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/03/21 18:55:50 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Wrapper Manager: JVM #1
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Running a 64-bit JVM.
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Wrapper Manager: Registering shutdown hook
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Wrapper Manager: Using wrapper
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Load native library.  One or more attempts may fail if platform specific libraries do not exist.
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Loading native library failed: libwrapper-linux-x86-64.so  Cause: java.lang.UnsatisfiedLinkError: no wrapper-linux-x86-64 in java.library.path
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Loaded native library: libwrapper.so
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Calling native initialization method.
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Inside native WrapperManager initialization method
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Java Version   : 1.6.0_33-b33 OpenJDK 64-Bit Server VM
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Java VM Vendor : Sun Microsystems Inc.
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Control event monitor thread started.
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Startup runner thread started.
+INFO   | jvm 1    | 2015/03/21 18:55:50 | WrapperManager.start(runtime.daemon.WrapperSimpleApp@343cf525, args["10000"]) called by thread: main
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Communications runner thread started.
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Open socket to wrapper...Wrapper-Connection
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Opened Socket from 31000 to 32000
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Send a packet KEY : UjBrEB9PBK2aZHQC
+INFO   | jvm 1    | 2015/03/21 18:55:50 | handleSocket(Socket[addr=/127.0.0.1,port=32000,localport=31000])
+DEBUG  | wrapperp | 2015/03/21 18:55:50 | accepted a socket from 127.0.0.1 on port 31000
+DEBUG  | wrapperp | 2015/03/21 18:55:50 | read a packet KEY : UjBrEB9PBK2aZHQC
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Got key from JVM: UjBrEB9PBK2aZHQC
+DEBUG  | wrapperp | 2015/03/21 18:55:50 | send a packet LOW_LOG_LEVEL : 1
+DEBUG  | wrapperp | 2015/03/21 18:55:50 | send a packet PING_TIMEOUT : 30
+DEBUG  | wrapperp | 2015/03/21 18:55:50 | send a packet PROPERTIES : (Property Values)
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Start Application.
+DEBUG  | wrapperp | 2015/03/21 18:55:50 | send a packet START : start
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Received a packet LOW_LOG_LEVEL : 1
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Wrapper Manager: LowLogLevel from Wrapper is 1
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Received a packet PING_TIMEOUT : 30
+INFO   | jvm 1    | 2015/03/21 18:55:50 | PingTimeout from Wrapper is 30000
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Received a packet PROPERTIES : (Property Values)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Received a packet START : start
+INFO   | jvm 1    | 2015/03/21 18:55:50 | calling WrapperListener.start()
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Waiting for WrapperListener.start runner thread to complete.
+INFO   | jvm 1    | 2015/03/21 18:55:50 | WrapperListener.start runner thread started.
+INFO   | jvm 1    | 2015/03/21 18:55:50 | WrapperSimpleApp: start(args)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | WrapperSimpleApp: invoking main method
+INFO   | jvm 1    | 2015/03/21 18:55:50 | runtime.MPJRuntimeException: java.io.FileNotFoundException: null/logs/daemon-khaled-Lenovo-Z50-70.log (No such file or directory)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at runtime.daemon.MPJDaemon.createLogger(MPJDaemon.java:519)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at runtime.daemon.MPJDaemon.<init>(MPJDaemon.java:105)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at runtime.daemon.MPJDaemon.main(MPJDaemon.java:1021)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at java.lang.reflect.Method.invoke(Method.java:622)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at runtime.daemon.WrapperSimpleApp.run(WrapperSimpleApp.java:187)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at java.lang.Thread.run(Thread.java:701)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Caused by: java.io.FileNotFoundException: null/logs/daemon-khaled-Lenovo-Z50-70.log (No such file or directory)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at java.io.FileOutputStream.openAppend(Native Method)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at java.io.FileOutputStream.<init>(FileOutputStream.java:210)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at java.io.FileOutputStream.<init>(FileOutputStream.java:131)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at org.apache.log4j.FileAppender.setFile(FileAppender.java:282)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at org.apache.log4j.FileAppender.<init>(FileAppender.java:106)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at org.apache.log4j.DailyRollingFileAppender.<init>(DailyRollingFileAppender.java:195)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	at runtime.daemon.MPJDaemon.createLogger(MPJDaemon.java:506)
+INFO   | jvm 1    | 2015/03/21 18:55:50 | 	... 8 more
+INFO   | jvm 1    | 2015/03/21 18:55:50 | WrapperSimpleApp: main method completed
+INFO   | jvm 1    | 2015/03/21 18:55:50 | WrapperSimpleApp: start(args) end.  Main Completed=true, exitCode=null
+INFO   | jvm 1    | 2015/03/21 18:55:50 | WrapperListener.start runner thread stopped.
+INFO   | jvm 1    | 2015/03/21 18:55:50 | returned from WrapperListener.start()
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Send a packet STARTED : 
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Startup runner thread stopped.
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Wrapper Manager: ShutdownHook started
+INFO   | jvm 1    | 2015/03/21 18:55:50 | WrapperManager.stop(0) called by thread: Wrapper-Shutdown-Hook
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Send a packet STOP : 0
+DEBUG  | wrapperp | 2015/03/21 18:55:50 | read a packet STARTED : 
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | JVM signalled that it was started.
+DEBUG  | wrapperp | 2015/03/21 18:55:50 | read a packet STOP : 0
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | JVM requested a shutdown. (0)
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | wrapperStopProcess(0) called.
+DEBUG  | wrapper  | 2015/03/21 18:55:50 | Sending stop signal to JVM
+DEBUG  | wrapperp | 2015/03/21 18:55:50 | send a packet STOP : NULL
+INFO   | jvm 1    | 2015/03/21 18:55:50 | Received a packet STOP : 
+INFO   | jvm 1    | 2015/03/21 18:55:51 | Thread, Wrapper-Shutdown-Hook, handling the shutdown process.
+INFO   | jvm 1    | 2015/03/21 18:55:51 | calling listener.stop()
+INFO   | jvm 1    | 2015/03/21 18:55:51 | WrapperSimpleApp: stop(0)
+INFO   | jvm 1    | 2015/03/21 18:55:51 | returned from listener.stop() -> 0
+INFO   | jvm 1    | 2015/03/21 18:55:51 | shutdownJVM(0) Thread:Wrapper-Shutdown-Hook
+INFO   | jvm 1    | 2015/03/21 18:55:51 | Send a packet STOPPED : 0
+DEBUG  | wrapperp | 2015/03/21 18:55:51 | read a packet STOPPED : 0
+DEBUG  | wrapper  | 2015/03/21 18:55:51 | JVM signalled that it was stopped.
+INFO   | jvm 1    | 2015/03/21 18:55:51 | Closing socket.
+DEBUG  | wrapperp | 2015/03/21 18:55:51 | socket read no code (closed?).
+DEBUG  | wrapperp | 2015/03/21 18:55:51 | server listening on port 32001.
+DEBUG  | wrapper  | 2015/03/21 18:55:52 | JVM exited normally.
+DEBUG  | wrapper  | 2015/03/21 18:55:52 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2015/03/21 18:55:52 |   signal number=17 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2015/03/21 18:55:52 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2015/03/21 18:55:52 | JVM process exited with a code of 0, leaving the wrapper exit code set to 0.
+INFO   | jvm 1    | 2015/03/21 18:55:52 | Wrapper Manager: ShutdownHook complete
+INFO   | jvm 1    | 2015/03/21 18:55:52 | Server daemon shut down
+STATUS | wrapper  | 2015/03/21 18:55:52 | <-- Wrapper Stopped
